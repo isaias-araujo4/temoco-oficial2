@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
-import TarefasScreen from '../screens/Tarefas';
+import Perfil from '../screens/Perfil';
 
 
 export default function Index() {
   return (
-    TarefasScreen()
+    Perfil()
   );
 }
