@@ -1,29 +1,112 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: "center"
-    },
-    titulo1: {
-        fontWeight: "bold",
-        fontSize: 20,
-    },
-   central: {
-    flexDirection: "column", // garante alinhamento vertical
+  background: {
+    flex: 1,
+    backgroundColor: "#EFD9FF",
+  },
+  container: {
+    flex: 1,
+    flexDirection: "row",
+    padding: 20,
+  },
+  painelPersonagens: {
+    flex: 0.4,
+    backgroundColor: "#E6E0CB",
+    borderRadius: 20,
+    padding: 20,
+    marginRight: 10,
+  },
+  painelPersonagensContent: {
+    paddingBottom: 20,
+  },
+  titulo: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 10,
+    color: "#333",
+  },
+  subtitulo: {
+    fontSize: 16,
+    fontWeight: "bold",
+    marginTop: 15,
+    marginBottom: 5,
+    backgroundColor: "#fff",
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 10,
+    alignSelf: "flex-start",
+  },
+  grid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    gap: 10,
+  },
+  iconeContainer: {
+    width: 60,
+    height: 60,
+    backgroundColor: "#fff",
+    borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
-},
-    titulo2: {
-        fontWeight: "bold",
-        fontSize: 20,
-        backgroundColor: "white"
-    },
-    lista1: {
-        justifyContent: "center",
-        alignItems: "center"
-    },
-    central2: {
-
-    }
-})
+    margin: 5,
+    position: "relative",
+  },
+  icone: {
+    width: 40,
+    height: 40,
+    resizeMode: "contain",
+  },
+  iconePequeno: {
+    position: "absolute",
+    bottom: 2,
+    right: 2,
+    width: 16,
+    height: 16,
+    resizeMode: "contain",
+  },
+  painelSelecionado: {
+    flex: 0.6,
+    backgroundColor: "#F4F0FF",
+    borderRadius: 20,
+    padding: 20,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  husky: {
+    width: 160,
+    height: 160,
+    resizeMode: "contain",
+  },
+  cardDescricao: {
+    backgroundColor: "#B4F2A7",
+    borderRadius: 10,
+    padding: 15,
+    marginTop: 15,
+  },
+  nomePersonagem: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#1A2E1A",
+    marginBottom: 5,
+  },
+  descricao: {
+    fontSize: 14,
+    color: "#1A2E1A",
+  },
+  botao: {
+    marginTop: 20,
+    backgroundColor: "#FDF3DC",
+    borderRadius: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderWidth: 2,
+    borderColor: "#000",
+  },
+  textoBotao: {
+    fontWeight: "bold",
+    fontSize: 16,
+    color: "#000",
+  },
+});
