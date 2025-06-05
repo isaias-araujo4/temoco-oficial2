@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
-import Perfil from '../screens/Perfil';
+import Personagens from '../screens/Personagens';
 
 
 export default function Index() {
   return (
-    Perfil()
+    Personagens()
   );
 }
